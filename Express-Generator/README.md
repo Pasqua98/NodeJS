@@ -14,4 +14,11 @@ To init a project template. Refer to teh following flags for customization.
         --git           add .gitignore
     -f, --force         force on non-empty directory
 
+Then bind the port you wish to use adding in app.js
+
+app.listen(8080,function () {
+  console.log("Connection established");
+});
+
+
 https://expressjs.com/en/starter/generator.html
