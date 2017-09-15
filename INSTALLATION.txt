@@ -1,0 +1,6 @@
+##################################INSTALLATION###########################
+Install Node from https://nodejs.org/en/download/ or run sudo apt install nodejs node-legacy
+$ mkdir myapp
+$ cd myapp
+$ npm init
+$ npm install express --save
